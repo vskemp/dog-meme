@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+.picture-frame {
+    height: 800px;
+    width: 800px;
+}
+
+.picture-frame > img {
+    width: 100%
+}
+
+.meme {
+    position: relative;
+}
+
+.words {
+    position: absolute;
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 250px;
+    margin-left: 90Px;
+    margin-top: 0px;
+}
